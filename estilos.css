@@ -48,3 +48,90 @@ header.ejercicio4 nav ul {
 header.ejercicio4 nav {
     max-width: 200px;
 }
+
+header.ejercicio5 h1 {
+    background-color: rgb(24, 21, 21);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+header.ejercicio5 .imgcontainer {
+    display: flex;
+    justify-content: start;
+    background-color: rgb(175, 174, 174);
+}
+
+header.ejercicio5 .imgcontainer img {
+    max-width: 100px;
+    height: 100px;
+    border: 2px dashed black;
+}
+
+header.ejercicio6 h1 {
+    background-color: rgb(24, 21, 21);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+header.ejercicio6 .imgcontainer {
+    display: flex;
+    justify-content: start;
+    background-color: rgb(175, 174, 174);
+    padding: 10px 5px;
+    gap: 10px;
+}
+
+header.ejercicio6 .imgcontainer img {
+    max-width: 100px;
+    height: 100px;
+    border: 2px dashed black;
+}
+
+header.ejercicio7 h1 {
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+ .travelContainer {
+    display: flex;
+ }
+
+ .travel {
+    width: 33.33%;
+    padding: 5px;
+ }
+
+ .travelImg {
+    max-width: 100%;
+ }
+
+ .travel:first-of-type{
+    background-color: rgb(72, 129, 72);
+ }
+
+ .travel:nth-of-type(2) {
+    background-color: rgb(51, 132, 207);
+ }
+
+ .travel:nth-of-type(3) {
+    background-color: blueviolet;
+ }
+
+ .travelTitle {
+    font-size: 25px;
+    text-align: center;
+ }
+
+ .travelDescription {
+    font-size: 12px;
+    text-align: justify;
+ }
