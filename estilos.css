@@ -191,14 +191,80 @@ header.ejercicio7 h1 {
     margin-bottom: 50px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    
  }
 
  article.bookingoption h2 {
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 20px;
+    padding-top: 10px;
+    text-transform: uppercase;
  }
 
  section.hero {
     margin-bottom: 30px;
+ }
+
+ article.bookingoption.green {
+   background-color: rgb(65, 136, 65);
+   border-color: rgb(2, 83, 2);
+ }
+
+ .bookingoption.green i {
+   color: rgb(2, 83, 2);
+ }
+
+
+ article.bookingoption.yellow {
+   background-color: rgb(186, 189, 51);
+   border-color: rgb(71, 83, 2);
+ }
+
+ .bookingoption.yellow i {
+   color: rgb(71, 83, 2);
+ }
+
+ article.bookingoption.blue {
+   background-color: rgb(50, 91, 167);
+   border-color: rgb(2, 24, 83);
+ }
+
+ .bookingoption.blue i {
+   color:rgb(2, 24, 83) ;
+ }
+
+ aside.opinion {
+   background-color: grey;
+   padding: 10px;
+   border-top: 10px solid black;
+   border-bottom: 10px solid black;
+   border-color: rgb(49, 49, 49);
+   color: rgb(37, 37, 37) ;
+ }
+
+ aside.opinion h2 {
+   font-size: 14px;
+   color: rgb(37, 37, 37);
+   text-transform: uppercase;
+ }
+
+ .stars i {
+   color: white;
+   padding-right: 2px;
+ }
+
+ .stars i:hover {
+  color: black;
+ }
+
+
+ aside.opinion header {
+   display: flex;
+   align-items: fle;
+ }
+
+ aside.opinion i.fa-user {
+   font-size: 40px;
+   padding-right: 10px;
  }
