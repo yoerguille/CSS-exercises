@@ -1,34 +1,34 @@
-h1 {
+header.ejercicio1 h1 {
     background-color: rgb(24, 21, 21);
     color: white;
     padding: 10px;
     margin: 0;
 }
 
-header {
+header.ejercicio1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav {
+header.ejercicio1 nav {
     background-color: grey;
     margin: 0;
 }
 
-header nav ul {
+header.ejercicio1 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-header li a {
+header.ejercicio1 li a {
     text-decoration: none;
     color: black;
     display: block;
     padding: 10px 20px;
 }
 
-header li a:hover {
+header.ejercicio1 li a:hover {
     color: white;
     background: black;
 }
@@ -134,4 +134,71 @@ header.ejercicio7 h1 {
  .travelDescription {
     font-size: 12px;
     text-align: justify;
+ }
+
+ header.header {
+    background-color: greenyellow;
+    
+ }
+
+ figure.logo {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+ }
+
+ figure.logo img{
+    max-width: 150px;
+ }
+
+ body {
+    margin: 0;
+    padding: 0;
+ }
+
+ nav.menu {
+    background-color: rgb(58, 133, 58);
+    padding: 5px;
+ }
+
+ nav.menu ul {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    gap: 10px;
+
+ }
+
+ nav.menu ul a {
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+ }
+
+ nav.menu li+li:before {
+    content: ' | ';
+    color: white;
+ }
+
+ section.hero img{
+    max-width: 100%;
+ }
+
+ article.bookingoption {
+    padding: 10px;
+    border: 5px solid black;
+    margin-bottom: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+ }
+
+ article.bookingoption h2 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+ }
+
+ section.hero {
+    margin-bottom: 30px;
  }
